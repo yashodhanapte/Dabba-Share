@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import {MatTableDataSource} from '@angular/material';
+import { MatTableDataSource } from '@angular/material';
+import { AngularFirestore } from 'angularfire2/firestore';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
